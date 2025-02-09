@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/MinGW/include",  // Modify this path according to your installation
+                "C:/Program Files/LLVM/include",  // Modify this path if you're using LLVM
+                "/usr/include/c++/9"  // Adjust if using Linux
+            ],
+            "defines": [],
+            "compilerPath": "C:/MinGW/bin/g++.exe",  // Path to g++ or MSVC compiler if using
+            "intelliSenseMode": "windows-gcc-x86",  // Adjust according to your compiler
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "C:/MinGW/include",  // Include additional paths for browsing
+                    "C:/Program Files/LLVM/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}
